@@ -1,0 +1,226 @@
+/* Colors */
+/* green= #2a4537
+  purple= #462c3b
+  white= #fcfeff
+  black= #010101
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+ */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.greentext {
+  color: #2a4537;
+}
+
+.whitetext {
+  color: #fcfeff;
+}
+
+.btn-primary{
+  background-color: #2a4537 !important;
+border-color:#2a4537 !important;
+}
+.btn-primary:hover {
+transform: scale(1.1);
+transition: all .2s ease-in-out;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.subnav {
+  background-color: #2a4537;
+}
+
+.sub-col-1 {
+  display: flex;
+  padding-left: 4%;
+}
+
+.sub-col-2 {
+  justify-content: center;
+  display: flex;
+}
+
+h5 {
+  color: #fcfeff
+}
+.underline{
+text-decoration: underline;
+}
+
+.hero {
+  background-image: url(img/hero-bg.jpg);
+  background-blend-mode: multiply;
+  background-color: #666666;
+  background-size: cover;
+}
+
+.hero-text {
+  color: white;
+}
+
+.tabs {
+  padding: 30px 0px;
+  background-color: #2a4537;
+  background-size: cover;
+}
+
+.products {
+  padding: 30px 0px;
+  background-image: url(img/bg.png);
+  background-size: cover;
+}
+
+p,
+a,
+li {
+  font-family: 'Roboto', sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a.d-flex>img:nth-child(1) {
+  width: 50%;
+}
+
+a.d-flex {
+  justify-content: center;
+}
+
+.nav-item {
+  font-size: 1.3em;
+}
+
+
+.nav-tabs{
+  border-width: 0
+}
+
+
+.card {
+  width: 100%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.tab-content {
+background: white;
+padding: 1%;
+margin: -6px 0;
+border-radius: 0px 0px 20px 20px;
+}
+ul.nav:nth-child(1) > li:nth-child(2) > a:nth-child(1) {
+color: lightgray;
+}
+
+ul.nav:nth-child(1) > li:nth-child(1) > a:nth-child(1) {
+color: lightgray;
+}
+
+ul.nav:nth-child(1) > li:nth-child(3) > a:nth-child(1) {
+color: lightgray;
+}
+
+ul.nav:nth-child(1) > li:nth-child(4) > a:nth-child(1) {
+color: lightgray;
+}
+
+.financing {
+padding: 50px 0;
+background-color: #cfd1d1
+}
+.gradient {
+
+  background-color: #203629;
+  background-image:
+    linear-gradient(
+      #203629, #ffffff
+
+    );
+}
+.bolditalic{
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.shipping{
+  background-color: #2a4537
+}
+
+.align-middle {
+display: flex;
+align-items: center;
+}
+
+.col-10{
+  width: 100%;
+}
+
+
+/*===============================================
+
+
+
+MEDIA QUERY
+
+===============================================*/
+/* Media Queries */
+
+
+
+@media screen and (max-width: 740px) {
+  .display-5{
+    text-align: center;
+  }
+  .lead{
+    text-align: center;
+  }
+  .nav-item{
+    font-size: 1em;
+  }
+
+
+
+}
